@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "repository": "DomiTiiri/py",
+  "archive_version": "0.0.1-index-only",
+  "cutoff": "2026-11-23",
+  "status": "partial_pending_project_history_and_chat_export",
+  "source_branch": "Asabeneh-patch-1",
+  "source_commit": "1f756dc8c54852bd7142ff04e1199f80f4a608da",
+  "proposed_branch": "governance/project-preservation-standard-2026-11-23",
+  "project_description": "Repository contains Python learning exercises, with lesson directories visible in the default branch; imported exercise/source licensing should be checked.",
+  "known_files": [
+    "README.md"
+  ],
+  "binary_zip": null,
+  "omissions": [
+    "Full verbatim ChatGPT transcript export not reconciled",
+    "Historical uploaded/generated attachments not inventoried",
+    "Complete source tree, branch and PR history not audited",
+    "No ZIP binary or checksum verified",
+    "No clean recovery test"
+  ],
+  "security": {
+    "exclude": [
+      "credentials",
+      "API keys",
+      "tokens",
+      "private keys",
+      "real .env files",
+      "unrelated personal information"
+    ],
+    "licence_review_required": true
+  },
+  "verification": {
+    "zip_integrity": "not_run",
+    "checksums": "not_run",
+    "recovery_test": "not_run"
+  },
+  "next_steps": [
+    "Inventory full repository tree and GitHub history",
+    "Reconcile conversations and attachments",
+    "Review source and dataset licences",
+    "Generate immutable ZIP and SHA-256 manifest",
+    "Run security and integrity checks",
+    "Test clean recovery"
+  ]
+}
